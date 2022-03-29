@@ -1,9 +1,10 @@
 int PULSADOR = 2;
-int LED = 7;
+int LED = 3;
 int ESTADO = LOW;
 
 
 void setup (){
+  //se debe establecer los pines de entrada o salida
   pinMode(PULSADOR, INPUT); //pin 2 como entrada
   pinMode(LED, OUTPUT); //pin 3 como salida
 }
